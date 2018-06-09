@@ -1,0 +1,36 @@
+body {
+  background: #f5f5f5;
+  margin: 0 auto;
+  font-family: "Open Sans Light", "Roboto Light", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  font-weight: 100;
+  color: #666;
+  text-align: center;
+}
+path {
+  stroke-width: 2;
+  fill: none;
+}
+.axis path, .axis line {
+  fill: none;
+  stroke: grey;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+.area {
+  fill: #F0F8FF;
+  stroke-width: 0;
+}
+/*
+svg {
+  background-color: white;
+}*/
+
+#run {
+  cursor:pointer;
+  padding:10px;
+  border: none;
+  font-weight: bold;
+  background-color: #D3696C;
+  font-size: 1.2em;
+  font-family: "Open Sans Light", "Roboto Light", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+}
